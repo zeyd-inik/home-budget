@@ -1,0 +1,13 @@
+/* variables */
+$font-sm: clamp(18px, 2.5vw, 26px);
+
+$project-blue: rgb(70, 185, 197);
+
+/* classes */
+
+/* media Queries */
+@mixin md-screens {
+  @media (min-width: 526px) {
+    @content;
+  }
+}

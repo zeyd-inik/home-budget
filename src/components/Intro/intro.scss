@@ -1,0 +1,52 @@
+@import '../../styles/variables.scss';
+
+.intro {
+  padding: 3rem 1rem;
+  .title {
+    padding-bottom: 1rem;
+    font-size: clamp(2rem, 5vw + 1rem, 6rem);
+    span {
+      color: $project-blue;
+    }
+  }
+  .desc {
+    font-size: 22px;
+    padding-bottom: 1rem;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  .form {
+    .text {
+      display: block;
+      max-width: 250px;
+      font-size: 16px;
+      width: 70%;
+      padding: 0.5rem 1.2rem;
+      border-radius: 3px;
+      border: 2px rgb(175, 164, 164) solid;
+      transition: all 0.2s ease;
+      &:focus {
+        outline-color: $project-blue;
+        outline-width: 3px;
+      }
+      &::placeholder {
+        font-size: 16px;
+      }
+    }
+    button[type='submit'] {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: black;
+      color: white;
+      padding: 8px 16px;
+      gap: 8px;
+      font-size: 16px;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+    }
+  }
+}

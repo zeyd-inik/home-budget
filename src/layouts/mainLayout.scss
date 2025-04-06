@@ -1,0 +1,19 @@
+.mainLayout {
+  height: 100vh;
+
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  .wave-container {
+    position: relative;
+
+    img {
+      position: absolute;
+      width: 100%;
+      bottom: 0;
+    }
+  }
+}
