@@ -21,13 +21,11 @@ function MainLayout() {
       <div className="outlet">
         <Outlet />
       </div>
-      <div className="wave-container">
-        <img
-          className="wave-img"
-          src={wave}
-          alt="wave-image"
-        />
-      </div>
+      <img
+        className="wave-img"
+        src={wave}
+        alt="wave-image"
+      />
     </div>
   );
 }

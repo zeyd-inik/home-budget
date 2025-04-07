@@ -11,3 +11,8 @@ $project-blue: rgb(70, 185, 197);
     @content;
   }
 }
+@mixin md-screens {
+  @media (min-width: 1200px) {
+    @content;
+  }
+}
